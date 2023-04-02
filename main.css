@@ -82,6 +82,21 @@ a{
     align-items: center;
 
  }
+ #hero .cta:hover{
+    display: block;
+    padding: 10px 30px;
+    color: rgb(237, 237, 241);
+    background-color: transparent;
+    border:2px solid rgb(235, 236, 241);
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    margin-top: 3opx;
+    transition: .3s ease;
+    transition-property: background-color, color;
+    align-items: center;
+
+}
 #hero .container{
     display: flex;
     padding: 0px;
