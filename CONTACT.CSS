@@ -77,18 +77,6 @@ button{
     margin-top: 20px;
     box-shadow: 0px 5px 15px 0px rgba(red, green, blue, alpha);
 }
-button{
-    background: #100f11;
-    width: 100px;
-    border: none;
-    outline: none;
-    color: #ffffff;
-    height: 35px;
-    border-radius: 30px;
-    margin-top: 20px;
-    box-shadow: 0px 5px 15px 0px rgba(red, green, blue, alpha);
-    
-}
     
 .contact-left h3{
     color: #dfdde6;
