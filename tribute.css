@@ -27,7 +27,7 @@ body{
 .tribute{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    max-width: 50rem;
+    max-width: 60rem;
     margin: 0px auto;
     background: rgb(124, 116, 116);
     color: rgb(240, 233, 233);
