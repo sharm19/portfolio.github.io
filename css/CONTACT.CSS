@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url(3rdmoon.jpg);
+    background-size: cover;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.container {
+    width: 80%;
+    margin: 50px auto;
+
+}
+.contact-box{
+    background-color: rgb(245, 250, 253);
+    display: flex;
+    backdrop-filter: blur(2rem);
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: #737377;
+    color: #09090c;
+}
+h1{
+    margin-bottom: 10px;
+    color: white ;
+}
+.container p{
+    margin-bottom: 40px;
+    color: white;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row  .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding-bottom: 5px;
+
+}
+textarea{
+    width: 200px;
+    border: 1px solid rgb(245, 238, 238);
+    outline: none;
+    padding: 5px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: flex;
+    color: #050404;
+}
+button{
+    background: #100f11;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(red, green, blue, alpha);
+}
+    
+.contact-left h3{
+    color: #040407;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+}
